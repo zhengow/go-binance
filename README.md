@@ -41,7 +41,7 @@ go get github.com/adshao/go-binance/v1
 
 ```golang
 import (
-    "github.com/adshao/go-binance/v2"
+    "github.com/zhengow/go-binance/v2"
 )
 ```
 
@@ -323,7 +323,7 @@ Use the `binance.UseTestnet` flag before calling the client creation and the web
 
 ```go
 import (
-    "github.com/adshao/go-binance/v2"
+    "github.com/zhengow/go-binance/v2"
 )
 
 binance.UseTestnet = true
@@ -336,7 +336,7 @@ Use the `futures.UseTestnet` flag before calling the client creation and the web
 
 ```go
 import (
-    "github.com/adshao/go-binance/v2/futures"
+    "github.com/zhengow/go-binance/v2/futures"
 )
 
 futures.UseTestnet = true
@@ -349,7 +349,7 @@ Use the `delivery.UseTestnet` flag before calling the client creation and the we
 
 ```go
 import (
-    "github.com/adshao/go-binance/v2/delivery"
+    "github.com/zhengow/go-binance/v2/delivery"
 )
 
 delivery.UseTestnet = true
